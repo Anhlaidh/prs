@@ -8,6 +8,10 @@ spring:
     static-path-pattern: /**
   application:
     name: echarts-service
+  redis:
+    database: 0
+    host: 47.94.224.197
+    port: 6379
 thymeleaf:
   #清除缓存
   #  cache: false
@@ -32,3 +36,4 @@ eureka:
   client:
     service-url:
       defaulteZone: http://${eureka.instance.hostname}:8761/eureka/
+
