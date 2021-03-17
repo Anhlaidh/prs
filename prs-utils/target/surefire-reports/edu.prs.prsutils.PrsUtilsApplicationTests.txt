@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: edu.prs.prsutils.PrsUtilsApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.452 s <<< FAILURE! - in edu.prs.prsutils.PrsUtilsApplicationTests
-contextLoads  Time elapsed: 0.001 s  <<< ERROR!
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'edu.prs.prsutils.PrsUtilsApplicationTests': Unsatisfied dependency expressed through field 'template'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.String, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.data.redis.core.RedisTemplate<java.lang.String, java.lang.Object>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-
